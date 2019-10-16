@@ -154,9 +154,9 @@ class Withdrawal: UIViewController {
     
     @IBAction func abortButton(_ sender: UIButton) {
         //performSegue(withIdentifier: "Home", sender: self)
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "card") as! CardView
-                        self.show(nextViewController, sender: self)
+          let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+          let nextViewController = storyBoard.instantiateViewController(withIdentifier: "card") as! CardView
+                          self.show(nextViewController, sender: self)
     }
     
     @IBAction func verifyButton(_ sender: UIButton) {
