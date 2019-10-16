@@ -7,6 +7,6 @@
 //
 
 import Foundation
- class CardDetails {
+ class cardDetails {
         static let settingsNames = ["   ATM Withdrawal", "   Reset Pin Code", "   Online Payment","   Freeze Card","   Contactless Payment"]
  }

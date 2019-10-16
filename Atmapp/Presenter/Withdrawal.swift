@@ -33,37 +33,37 @@ class Withdrawal: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        
-        verifyButton.isEnabled = false
-        pinOneTextField.delegate = self
-        pinOneTextField.keyboardType = .numberPad
-        pinTwoTextField.delegate = self
-        pinTwoTextField.keyboardType = .numberPad
-        pinThreeTextField.delegate = self
-        pinThreeTextField.keyboardType = .numberPad
-        pinFourTextField.delegate = self
-        pinFourTextField.keyboardType = .numberPad
-
-        enterAmount.delegate = self
-        enterAmount.keyboardType = .numberPad
-        
-        denominationAmount.dataSource = self
-        denominationAmount.delegate = self
-        verifyButton.layer.cornerRadius = 15
-        abortButton.layer.cornerRadius = 15
-        mainBalanceView.layer.cornerRadius = 10
-        amountView.layer.cornerRadius = 10
-        balanceView.layer.cornerRadius = 60
-        balanceView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
-        navigationItem.title = "WITHDRAWAL"
-        createToolBar()
-       
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-           NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-        
-   
+        setUpView()
     }
     
+    func setUpView() {
+         verifyButton.isEnabled = false
+               pinOneTextField.delegate = self
+               pinOneTextField.keyboardType = .numberPad
+               pinTwoTextField.delegate = self
+               pinTwoTextField.keyboardType = .numberPad
+               pinThreeTextField.delegate = self
+               pinThreeTextField.keyboardType = .numberPad
+               pinFourTextField.delegate = self
+               pinFourTextField.keyboardType = .numberPad
+
+               enterAmount.delegate = self
+               enterAmount.keyboardType = .numberPad
+               
+               denominationAmount.dataSource = self
+               denominationAmount.delegate = self
+               verifyButton.layer.cornerRadius = 15
+               abortButton.layer.cornerRadius = 15
+               mainBalanceView.layer.cornerRadius = 10
+               amountView.layer.cornerRadius = 10
+               balanceView.layer.cornerRadius = 60
+               balanceView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+               navigationItem.title = "WITHDRAWAL"
+               createToolBar()
+              
+               NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+                  NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
     func createToolBar (){
         let toolBar =  UIToolbar()
         toolBar.sizeToFit()
