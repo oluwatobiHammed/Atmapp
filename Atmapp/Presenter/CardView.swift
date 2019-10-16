@@ -13,7 +13,7 @@ class CardView:  UIViewController{
     
     @IBOutlet weak var selectionTableView: UITableView!
     @IBOutlet weak var cardView: UIView!
-    let Names = CardDetails.settingsNames
+    let Names = cardDetails.settingsNames
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

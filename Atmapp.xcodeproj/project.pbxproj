@@ -13,7 +13,7 @@
 		CE61CEBB23460F5400A075B9 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEBA23460F5400A075B9 /* Support.swift */; };
 		CE61CEBD234610AE00A075B9 /* SupportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEBC234610AE00A075B9 /* SupportTableViewCell.swift */; };
 		CE61CEC0234690E100A075B9 /* TransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEBF234690E100A075B9 /* TransactionDetails.swift */; };
-		CE61CEC4234695A600A075B9 /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEC3234695A600A075B9 /* CardDetails.swift */; };
+		CE61CEC4234695A600A075B9 /* cardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEC3234695A600A075B9 /* cardDetails.swift */; };
 		CE61CEC6234776BD00A075B9 /* MoneyDenomination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEC5234776BD00A075B9 /* MoneyDenomination.swift */; };
 		CE61CEC823478C0400A075B9 /* SupportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CEC723478C0400A075B9 /* SupportList.swift */; };
 		CE61CED02349018300A075B9 /* AtmappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CECF2349018300A075B9 /* AtmappTests.swift */; };
@@ -53,7 +53,7 @@
 		CE61CEBA23460F5400A075B9 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		CE61CEBC234610AE00A075B9 /* SupportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportTableViewCell.swift; sourceTree = "<group>"; };
 		CE61CEBF234690E100A075B9 /* TransactionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetails.swift; sourceTree = "<group>"; };
-		CE61CEC3234695A600A075B9 /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
+		CE61CEC3234695A600A075B9 /* cardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardDetails.swift; sourceTree = "<group>"; };
 		CE61CEC5234776BD00A075B9 /* MoneyDenomination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyDenomination.swift; sourceTree = "<group>"; };
 		CE61CEC723478C0400A075B9 /* SupportList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportList.swift; sourceTree = "<group>"; };
 		CE61CECD2349018300A075B9 /* AtmappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +128,7 @@
 			children = (
 				CE61CEBF234690E100A075B9 /* TransactionDetails.swift */,
 				CE18440B2354A606006E3359 /* Transaction.swift */,
-				CE61CEC3234695A600A075B9 /* CardDetails.swift */,
+				CE61CEC3234695A600A075B9 /* cardDetails.swift */,
 				CE61CEC5234776BD00A075B9 /* MoneyDenomination.swift */,
 				CE61CEC723478C0400A075B9 /* SupportList.swift */,
 			);
@@ -333,7 +333,7 @@
 				CEA72C0F23400D460053635D /* CardTableViewCell.swift in Sources */,
 				CE82693923390BED001A7CA9 /* AppDelegate.swift in Sources */,
 				CE61CEC823478C0400A075B9 /* SupportList.swift in Sources */,
-				CE61CEC4234695A600A075B9 /* CardDetails.swift in Sources */,
+				CE61CEC4234695A600A075B9 /* cardDetails.swift in Sources */,
 				CE61CEBD234610AE00A075B9 /* SupportTableViewCell.swift in Sources */,
 				CE82694D233B891B001A7CA9 /* TransactionTableViewCell.swift in Sources */,
 				CE82693B23390BED001A7CA9 /* SceneDelegate.swift in Sources */,
